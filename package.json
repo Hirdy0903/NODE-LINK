@@ -1,0 +1,22 @@
+{
+  "name": "nodelink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsc-watch": "^7.2.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/express5": "^1.1.2",
+    "express": "^5.2.1",
+    "graphql": "^16.14.0"
+  }
+}

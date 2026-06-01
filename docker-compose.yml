@@ -3,7 +3,7 @@ version: "3.4"
 services:
   postgres:
     container_name: threads_db
-    image: postgres
+    image: postgres:16
 
     ports:
       - "5432:5432"
